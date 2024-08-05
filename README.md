@@ -13,7 +13,7 @@ To use the `.xinitrc` file from this repository, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/swgtds/.xinitrc.git
+    git clone https://github.com/swgtds/xinitrc.git
     ```
 
 2. **Navigate to the cloned directory**:
