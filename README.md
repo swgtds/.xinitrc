@@ -28,7 +28,7 @@ To use the `.xinitrc` file from this repository, follow these steps:
 
 4. **Copy the .xinitrc file from the repository to your home directory**:
     ```sh
-    cp .xinitrc ~/
+    cp ~/.xinitrc
     ```
 
 5. **Make sure the .xinitrc file is executable**:
@@ -39,27 +39,6 @@ To use the `.xinitrc` file from this repository, follow these steps:
 6. **Start your X session**:
     ```sh
     startx
-    ```
-
-## Customization
-
-You can customize the `.xinitrc` file to fit your needs. Below are some common modifications:
-
-- **Setting Environment Variables**:
-    ```sh
-    export PATH=$PATH:/path/to/custom/bin
-    export EDITOR=nano
-    ```
-
-- **Starting Window Managers**:
-    ```sh
-    exec i3
-    ```
-
-- **Launching Applications**:
-    ```sh
-    xterm &
-    firefox &
     ```
 
 Ensure any window manager or desktop environment is started with `exec` as the last command in the file. This replaces the shell with the window manager or desktop environment.
