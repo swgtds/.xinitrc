@@ -18,7 +18,7 @@ To use the `.xinitrc` file from this repository, follow these steps:
 
 2. **Navigate to the cloned directory**:
     ```sh
-    cd .xinitrc
+    cd xinitrc
     ```
 
 3. **Backup your existing .xinitrc file** (if it exists):
